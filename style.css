@@ -1,11 +1,14 @@
+
 body {
     background-color: #CDEEFF;
-    text-align: center;
-    margin: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    overflow: hidden;
 }
 
 .divisao {
@@ -14,8 +17,6 @@ body {
     align-items: center;
     flex-direction: row;
     gap: 10px;
-    padding: 20px;
-    width: 100%;
 }
 
 h1 { 
@@ -41,7 +42,7 @@ button:hover {
 input {
     padding: 5px;
     border-radius: 10px;
-    border-color: #6c6cc9;
+    border: 2px solid #6c6cc9;
     max-width: 150px;
 }
 body { 
@@ -50,9 +51,5 @@ body {
 } 
 img { 
     height: 45vh; 
-
 }
-
-
-
 
