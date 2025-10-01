@@ -2,12 +2,10 @@ body {
     background-color: #CDEEFF;
     text-align: center;
     margin: 0;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .divisao {
@@ -54,6 +52,7 @@ img {
     height: 45vh; 
 
 }
+
 
 
 
