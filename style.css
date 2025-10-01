@@ -8,7 +8,8 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
+    padding: 20px;
 }
 
 h1 { 
@@ -43,4 +44,5 @@ img {
     height: 50vh; 
 
 }
+
 
