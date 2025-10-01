@@ -3,8 +3,7 @@
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    width: 100vw;   
-    height: 100vh;  
+     
 }
 .divisao {
     display: flex;
@@ -44,4 +43,5 @@ body {
 } 
 img { 
     height: 50vh; 
+
 }
