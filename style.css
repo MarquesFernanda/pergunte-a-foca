@@ -50,6 +50,7 @@ body {
     text-align: center; 
 } 
 img { 
-    height: 45vh; 
+    max-height: 45vh;  
 }
+
 
