@@ -8,6 +8,7 @@ body {
     text-align: center;
     max-height: 100vh;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .divisao {
@@ -53,4 +54,5 @@ img {
     max-height: 300px;
     margin-bottom: 20px;
 }
+
 
