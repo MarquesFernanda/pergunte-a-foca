@@ -1,56 +1,56 @@
-  body {
-            background-color: #CDEEFF;
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            overflow: hidden;
+body {
+    background-color: #CDEEFF;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.divisao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 150px;
+    gap: 10px;
+    margin: 20px;
+}
+
+h1 {
+    color: #02025C;
+    margin-bottom: 20px;
         }
 
-        .divisao {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            gap: 10px;
-            margin: 20px 0;
-        }
+button {
+    color: white;
+    background-color: #424295;
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.3s;
+    max-width: 30vw;
+}
 
-        h1 {
-            color: #02025C;
-            margin-bottom: 20px;
-        }
+button:hover {
+    transform: scale(1.1);
+}
 
-        button {
-            color: white;
-            background-color: #424295;
-            padding: 12px 20px;
-            font-size: 15px;
-            border-radius: 15px;
-            border: none;
-            margin-top: 20px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: transform 0.3s;
-            max-width: 30vw;
-        }
+input {
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid #6c6cc9;
+    max-width: 150px;
+}
 
-        button:hover {
-            transform: scale(1.1);
-        }
-
-        input {
-            padding: 10px;
-            border-radius: 10px;
-            border: 2px solid #6c6cc9;
-            max-width: 200px;
-        }
-
-        img {
-            max-height: 40vh;
-            max-width: 80vw;
-            object-fit: contain;
-        }
+img {
+    max-height: 40vh;
+    max-width: 80vw;
+}
