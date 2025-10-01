@@ -3,7 +3,6 @@ body {
     text-align: center;
     margin: 0;
     height: 100vh;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,4 +53,5 @@ img {
     height: 45vh; 
 
 }
+
 
