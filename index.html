@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunte à foca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="tudo">
+<body>
+    <h1>Pergunte à foca</h1>
+    <img src="/PGTFOCA/img/foca.jpg" alt="foca">
+    <div class="divisao"> 
+        <input type="text" class="input1"> ou <input type="text" class="input2">
+    </div>
+    <button type="button" onclick="respostaFoca()">Perguntar</button>
+</body>
+</div>
+<script>
+	function respostaFoca(){
+        var escolha = Math.floor(Math.random() * 10);
+        if (escolha%2)
+	        alert("A foca escolheu "+document.querySelector(".input1").value)
+        else
+	        alert("A foca escolheu "+document.querySelector(".input2").value)
+    }
+</script>
+</html>

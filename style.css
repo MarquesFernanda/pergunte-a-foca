@@ -1,0 +1,47 @@
+.tudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100vw;   
+    height: 100vh;  
+}
+.divisao {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+h1 { 
+    color: #02025C;
+} 
+button { 
+    color: white; 
+    background-color:#424295; 
+    padding: 14px; 
+    font-size: 15px; 
+    border-radius: 15px; 
+    border-color:#CDEEFF; 
+    margin-top: 30px; 
+    box-shadow: #CDEEFF; 
+    cursor: pointer; 
+    font-weight: 600; 
+    transition: transform 1s; 
+} 
+button:hover { 
+    transform: scale(1.1); 
+} 
+input { 
+    padding: 5px; 
+    border-radius: 10px ; 
+    border-color: #6c6cc9; 
+} 
+body { 
+    background-color: #CDEEFF; 
+    text-align: center; 
+} 
+img { 
+    height: 50vh; 
+}
