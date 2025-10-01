@@ -1,9 +1,15 @@
-.tudo {
+body {
+    background-color: #CDEEFF;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    gap: 10px; 
+    justify-content: center;
+    align-items: center;
 }
+
 .divisao {
     display: flex;
     justify-content: center;
