@@ -1,13 +1,14 @@
-
 body {
     background-color: #CDEEFF;
-    width: 100%;
-    height: 100%;
+    margin: 0;  
+    max-width: 100%;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow: hidden;
 }
 
 .divisao {
@@ -24,16 +25,16 @@ h1 {
 button { 
     color: white; 
     background-color:#424295; 
-    padding: 14px; 
+    padding: 12px 20px; 
     font-size: 15px; 
     border-radius: 15px; 
     border-color:#CDEEFF; 
-    margin-top: 30px; 
+    margin-top: 20px; 
     box-shadow: #CDEEFF; 
     cursor: pointer; 
     font-weight: 600; 
     transition: transform 1s; 
-    max-width: 120px;
+    max-width: 30vw;
 } 
 button:hover { 
     transform: scale(1.1); 
@@ -42,15 +43,14 @@ input {
     padding: 5px;
     border-radius: 10px;
     border: 2px solid #6c6cc9;
-    max-width: 150px;
+    max-width: 35vh;
 }
 body { 
     background-color: #CDEEFF; 
     text-align: center; 
 } 
 img { 
-    max-height: 45vh;  
+    max-height: 45vh;
+    max-width: 45vw; 
 }
-
-
 
