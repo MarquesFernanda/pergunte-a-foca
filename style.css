@@ -1,57 +1,56 @@
+  body {
+            background-color: #CDEEFF;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+        }
 
-body {
-    background-color: #CDEEFF;
-    margin: 0;  
-    max-width: 100%;
-    max-height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
-}
+        .divisao {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 10px;
+            margin: 20px 0;
+        }
 
-.divisao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 10px;
-}
+        h1 {
+            color: #02025C;
+            margin-bottom: 20px;
+        }
 
-h1 { 
-    color: #02025C;
-} 
-button { 
-    color: white; 
-    background-color:#424295; 
-    padding: 12px 20px; 
-    font-size: 15px; 
-    border-radius: 15px; 
-    border-color:#CDEEFF; 
-    margin-top: 20px; 
-    box-shadow: #CDEEFF; 
-    cursor: pointer; 
-    font-weight: 600; 
-    transition: transform 1s; 
-    max-width: 30vw;
-} 
-button:hover { 
-    transform: scale(1.1); 
-} 
-input {
-    padding: 5px;
-    border-radius: 10px;
-    border: 2px solid #6c6cc9;
-    max-width: 35vh;
-}
-body { 
-    background-color: #CDEEFF; 
-    text-align: center; 
-} 
-img { 
-    max-height: 45vh;
-    max-width: 45vw; 
-}
+        button {
+            color: white;
+            background-color: #424295;
+            padding: 12px 20px;
+            font-size: 15px;
+            border-radius: 15px;
+            border: none;
+            margin-top: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: transform 0.3s;
+            max-width: 30vw;
+        }
 
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        input {
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid #6c6cc9;
+            max-width: 200px;
+        }
+
+        img {
+            max-height: 40vh;
+            max-width: 80vw;
+            object-fit: contain;
+        }
