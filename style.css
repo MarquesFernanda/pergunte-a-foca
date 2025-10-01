@@ -11,7 +11,7 @@
     flex-direction: row;
     gap: 10px;
     padding: 20px;
-    max-width: 100px;
+    width: 100%;
 }
 
 h1 { 
@@ -29,15 +29,17 @@ button {
     cursor: pointer; 
     font-weight: 600; 
     transition: transform 1s; 
+    max-width: 120px;
 } 
 button:hover { 
     transform: scale(1.1); 
 } 
-input { 
-    padding: 5px; 
-    border-radius: 10px ; 
-    border-color: #6c6cc9; 
-} 
+input {
+    padding: 5px;
+    border-radius: 10px;
+    border-color: #6c6cc9;
+    max-width: 150px;
+}
 body { 
     background-color: #CDEEFF; 
     text-align: center; 
