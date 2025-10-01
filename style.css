@@ -6,9 +6,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh;
+    max-height: 100vh;
     padding: 20px;
-    box-sizing: border-box;
 }
 
 .divisao {
@@ -52,6 +51,6 @@ input {
         
 img { 
     max-height: 300px;
-    width: auto;
     margin-bottom: 20px;
 }
+
